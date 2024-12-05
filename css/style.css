@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+body {
+    font-family: "Barlow", sans-serif;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin:16px;
+}
+
+header a {
+    background-color: #E8EFF2;
+    display: block;
+    padding: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #162542;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.hero-container {
+    margin-bottom: 32px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.main-description p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.orange-pre-order {
+    background-color: #F16718;
+    /* display: ; */
+    padding: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff ;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.release-date {
+    color: #7B8BAD;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-align: right;
+}
+
+.pre-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-image-container {
+    width: 90%;
+    margin-left: auto;
+}
+
+.main-image-container .main-image {
+    width: 100%;
+}
+
+
